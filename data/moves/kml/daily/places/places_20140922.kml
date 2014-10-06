@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <atom:link href="http://www.moves-app.com"/>
+    <description><![CDATA[<p align="center"><a href="http://www.moves-app.com"> <img src="http://www.moves-app.com/assets/moves.png"/> </a></p> <p align="center">Moves Storyline</p>]]></description>
+    <Style id="place_school">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/school.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_work">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/default.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_user">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_foursquare">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_unknown">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_home">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/home.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[9/22/14]]></name>
+      <Placemark id="1411369200000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 12:00 AM to 8:02 AM<br/> 8:02 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T00:00:01-07:00</begin>
+          <end>2014-09-22T08:02:49-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411398830000">
+        <name><![CDATA[Place in El Presidio]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 8:13 AM to 10:52 AM<br/> 2:38 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T08:13:51-07:00</begin>
+          <end>2014-09-22T10:52:47-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9762085471,32.2280797559</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411408961000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 11:02 AM to 11:09 AM<br/> 7 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T11:02:42-07:00</begin>
+          <end>2014-09-22T11:09:47-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411410059000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 11:20 AM to 11:32 AM<br/> 11 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T11:21:00-07:00</begin>
+          <end>2014-09-22T11:32:45-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9544029164,32.2296516871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411411197000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 11:39 AM to 1:02 PM<br/> 1:22 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T11:39:58-07:00</begin>
+          <end>2014-09-22T13:02:22-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9543320791,32.2317627041</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411416143000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 1:02 PM to 1:51 PM<br/> 48 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T13:02:24-07:00</begin>
+          <end>2014-09-22T13:51:20-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9544029164,32.2296516871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411419640000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 2:00 PM to 2:42 PM<br/> 41 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T14:00:41-07:00</begin>
+          <end>2014-09-22T14:42:11-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9570376611,32.2322783431</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411422132000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 2:42 PM to 4:08 PM<br/> 1:26 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T14:42:13-07:00</begin>
+          <end>2014-09-22T16:08:48-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9514267373,32.2303954275</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411428435000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 4:27 PM to 5:10 PM<br/> 43 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T16:27:16-07:00</begin>
+          <end>2014-09-22T17:10:34-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411432167000">
+        <name><![CDATA[Place in Pima County]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 5:29 PM to 6:01 PM<br/> 31 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T17:29:28-07:00</begin>
+          <end>2014-09-22T18:01:25-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9440906985,32.256861007</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411435587000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 6:26 PM to 6:41 PM<br/> 15 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T18:26:28-07:00</begin>
+          <end>2014-09-22T18:41:49-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411436605000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 6:43 PM to 9:34 PM<br/> 2:50 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T18:43:26-07:00</begin>
+          <end>2014-09-22T21:34:12-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9561566715,32.2233746554</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1411446891000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/22/14<br/> 9:34 PM to 12:00 AM<br/> 2:25 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-22T21:34:52-07:00</begin>
+          <end>2014-09-22T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

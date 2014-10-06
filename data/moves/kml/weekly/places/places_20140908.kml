@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <atom:link href="http://www.moves-app.com"/>
+    <description><![CDATA[<p align="center"><a href="http://www.moves-app.com"> <img src="http://www.moves-app.com/assets/moves.png"/> </a></p> <p align="center">Moves Storyline</p>]]></description>
+    <Style id="place_school">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/school.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_work">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/default.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_user">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_foursquare">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_unknown">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_home">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/home.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[9/11/14]]></name>
+      <Placemark id="1410461865000">
+        <name><![CDATA[Place in El Presidio]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 11:57 AM to 12:16 PM<br/> 18 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T11:57:46-07:00</begin>
+          <end>2014-09-11T12:16:12-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9762085471,32.2280797559</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410463461000">
+        <name><![CDATA[Place in El Rio]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:24 PM to 12:34 PM<br/> 10 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:24:22-07:00</begin>
+          <end>2014-09-11T12:34:20-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9835973564,32.2296763141</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410464607000">
+        <name><![CDATA[Place in Pima County]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:43 PM to 12:47 PM<br/> 4 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:43:28-07:00</begin>
+          <end>2014-09-11T12:47:34-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9839160901,32.2871936944</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410467334000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 1:28 PM to 3:05 PM<br/> 1:36 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T13:28:55-07:00</begin>
+          <end>2014-09-11T15:05:44-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410473758000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 3:15 PM to 4:46 PM<br/> 1:30 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T15:15:59-07:00</begin>
+          <end>2014-09-11T16:46:23-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9544029164,32.2296516871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410479707000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 4:55 PM to 5:06 PM<br/> 10 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T16:55:08-07:00</begin>
+          <end>2014-09-11T17:06:03-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9565262031,32.2297649071</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410480365000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 5:06 PM to 5:35 PM<br/> 29 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T17:06:06-07:00</begin>
+          <end>2014-09-11T17:35:58-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9586272862,32.2315687554</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410482160000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 5:36 PM to 6:57 PM<br/> 1:21 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T17:36:01-07:00</begin>
+          <end>2014-09-11T18:57:21-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9570847414,32.2317676748</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410487650000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:07 PM to 7:10 PM<br/> 3 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:07:31-07:00</begin>
+          <end>2014-09-11T19:10:51-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9561643409,32.2275923133</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410488482000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:21 PM to 12:00 AM<br/> 4:38 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:21:23-07:00</begin>
+          <end>2014-09-11T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/12/14]]></name>
+      <Placemark id="1410505200000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 12:00 AM to 8:47 AM<br/> 8:47 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T00:00:01-07:00</begin>
+          <end>2014-09-12T08:47:31-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410537458000">
+        <name><![CDATA[Place in El Presidio]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:57 AM to 11:05 AM<br/> 2:08 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T08:57:39-07:00</begin>
+          <end>2014-09-12T11:05:58-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9762085471,32.2280797559</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410545707000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:15 AM to 11:39 AM<br/> 24 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:15:08-07:00</begin>
+          <end>2014-09-12T11:39:34-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410547981000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:53 AM to 12:49 PM<br/> 56 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:53:02-07:00</begin>
+          <end>2014-09-12T12:49:53-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9549290537,32.2278013894</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410552361000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 1:06 PM to 1:18 PM<br/> 12 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T13:06:02-07:00</begin>
+          <end>2014-09-12T13:18:41-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410571566000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 6:26 PM to 6:44 PM<br/> 17 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T18:26:07-07:00</begin>
+          <end>2014-09-12T18:44:00-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410574175000">
+        <name><![CDATA[Place in Flagstaff]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 7:09 PM to 8:12 PM<br/> 1:02 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T19:09:36-07:00</begin>
+          <end>2014-09-12T20:12:01-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6525120864,35.1967282127</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410577952000">
+        <name><![CDATA[Place in Flagstaff]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:12 PM to 9:39 PM<br/> 1:26 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T20:12:33-07:00</begin>
+          <end>2014-09-12T21:39:27-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6484911338,35.1959867766</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410583697000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 9:48 PM to 9:59 PM<br/> 11 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T21:48:18-07:00</begin>
+          <end>2014-09-12T21:59:44-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/13/14]]></name>
+      <Placemark id="1410631575000">
+        <name><![CDATA[Place in Fort Tuthill]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:06 AM to 5:25 PM<br/> 6:19 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T11:06:16-07:00</begin>
+          <end>2014-09-13T17:25:15-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6924324721,35.1378607437</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410655758000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 5:49 PM to 8:16 PM<br/> 2:27 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T17:49:19-07:00</begin>
+          <end>2014-09-13T20:16:23-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410665762000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:36 PM to 8:38 PM<br/> 2 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:36:03-07:00</begin>
+          <end>2014-09-13T20:38:39-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6460783374,35.1993103247</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410666130000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:42 PM to 11:38 PM<br/> 2:56 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:42:11-07:00</begin>
+          <end>2014-09-13T23:38:55-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6484277581,35.1976058633</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410677726000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:55 PM to 12:00 AM<br/> 4 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T23:55:27-07:00</begin>
+          <end>2014-09-13T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6993766135,35.0911273269</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/14/14]]></name>
+      <Placemark id="1410678000000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/14/14<br/> 12:00 AM to 10:12 AM<br/> 10:12 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-14T00:00:01-07:00</begin>
+          <end>2014-09-14T10:12:38-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6993766135,35.0911273269</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410732785000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/14/14<br/> 3:13 PM to 12:00 AM<br/> 8:46 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-14T15:13:06-07:00</begin>
+          <end>2014-09-14T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

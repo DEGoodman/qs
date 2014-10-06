@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <atom:link href="http://www.moves-app.com"/>
+    <description><![CDATA[<p align="center"><a href="http://www.moves-app.com"> <img src="http://www.moves-app.com/assets/moves.png"/> </a></p> <p align="center">Moves Storyline</p>]]></description>
+    <Style id="activity_walking">
+      <IconStyle>
+        <scale>0.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.0</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>df5ad500</color>
+        <width>6.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="activity_transport">
+      <IconStyle>
+        <scale>0.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.0</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>dfb4b4b4</color>
+        <width>6.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="place_school">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/school.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_work">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/default.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_user">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_foursquare">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_unknown">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_home">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/home.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[9/11/14]]></name>
+      <Placemark id="1410461865000">
+        <name><![CDATA[Place in El Presidio]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 11:57 AM to 12:16 PM<br/> 18 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T11:57:46-07:00</begin>
+          <end>2014-09-11T12:16:12-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9762085471,32.2280797559</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410462973000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:16 PM to 12:19 PM<br/> 2 min, 0.1 mi, 262 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:16:13-07:00</begin>
+          <end>2014-09-11T12:19:10-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9762085471,32.2280797559 -110.9762580245,32.2281187891 -110.9762746883,32.2281273709 -110.9762967399,32.2281375709 -110.9763277166,32.2281495496 -110.9763699122,32.2281636957 -110.9763149524,32.2281572142 -110.9764569543,32.2281923491</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410463149000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:19 PM to 12:24 PM<br/> 5 min, 0.5 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:19:09-07:00</begin>
+          <end>2014-09-11T12:24:21-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9764569543,32.2281923491 -110.9772390895,32.2283803475 -110.9772541755,32.2283750681 -110.9772548684,32.2283752174 -110.982015383,32.2295391561 -110.9835973564,32.2296763141</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410463461000">
+        <name><![CDATA[Place in El Rio]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:24 PM to 12:34 PM<br/> 10 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:24:22-07:00</begin>
+          <end>2014-09-11T12:34:20-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9835973564,32.2296763141</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410464061000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:34 PM to 12:43 PM<br/> 9 min, 4.6 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:34:21-07:00</begin>
+          <end>2014-09-11T12:43:27-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9835973564,32.2296763141 -110.9780806903,32.2586881229 -110.9780601278,32.260561258 -110.9780859139,32.2718122863 -110.9839160901,32.2871936944</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410464607000">
+        <name><![CDATA[Place in Pima County]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:43 PM to 12:47 PM<br/> 4 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:43:28-07:00</begin>
+          <end>2014-09-11T12:47:34-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9839160901,32.2871936944</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410464855000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 12:47 PM to 1:28 PM<br/> 41 min, 5.5 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T12:47:35-07:00</begin>
+          <end>2014-09-11T13:28:55-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9839160901,32.2871936944 -110.9839489715,32.2873370283 -110.9839474641,32.2873393601 -110.9839449721,32.287339849 -110.9839418445,32.2873389227 -110.9839390488,32.2873375146 -110.9839370052,32.2873362396 -110.983935822,32.2873354334 -110.9839352222,32.2873350021 -110.9839349351,32.2873347896 -110.9839348462,32.2873347234 -110.978237611,32.2824334274 -110.9782327305,32.282415303 -110.9782303332,32.2824091999 -110.9782293996,32.2824072717 -110.9782290262,32.2824065603 -110.9782288765,32.2824062823 -110.9782288026,32.2824061449 -110.9782287529,32.2824060515 -110.9782287132,32.2824059768 -110.9782286755,32.2824059059 -110.978228639,32.2824058378 -110.9782286,32.2824057649 -110.9782290261,32.2824065313 -110.9750584273,32.2763567026 -110.9750582857,32.2763564323 -110.9567990665,32.2415159632 -110.956779768,32.2301460943 -110.9567524446,32.2291058879 -110.9567525969,32.2287681968 -110.9541365232,32.2241059238 -110.9541187843,32.2241951163</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410467334000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 1:28 PM to 3:05 PM<br/> 1:36 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T13:28:55-07:00</begin>
+          <end>2014-09-11T15:05:44-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410473145000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 3:05 PM to 3:15 PM<br/> 10 min, 0.5 mi, 666 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T15:05:45-07:00</begin>
+          <end>2014-09-11T15:15:58-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9541187843,32.2241951163 -110.9541337356,32.2241531178 -110.9541444269,32.2241289386 -110.954308684,32.2239731031 -110.9546740433,32.2240082266 -110.9546627324,32.2240837608 -110.9547291097,32.224325351 -110.9547342633,32.2244773298 -110.9546954222,32.2246092883 -110.9546644834,32.2247268153 -110.9546795587,32.2249931604 -110.9547497873,32.2255118175 -110.9547976849,32.2259814127 -110.9548265944,32.2262698385 -110.9548868012,32.2268418323 -110.9548740744,32.2272608894 -110.9548485274,32.2274289877 -110.9547715516,32.2276309868 -110.9547307936,32.2278723369 -110.9547098904,32.2281122263 -110.9546451879,32.2286306407 -110.9545788391,32.2290331515 -110.9544720527,32.2296079361 -110.9544213071,32.2297235193 -110.9543991901,32.2297565872 -110.9544003685,32.2297548819 -110.9544029164,32.2296516871</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410473758000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 3:15 PM to 4:46 PM<br/> 1:30 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T15:15:59-07:00</begin>
+          <end>2014-09-11T16:46:23-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9544029164,32.2296516871</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410479184000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 4:46 PM to 4:55 PM<br/> 8 min, 0.2 mi, 663 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T16:46:24-07:00</begin>
+          <end>2014-09-11T16:55:08-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9544029164,32.2296516871 -110.9544408011,32.2296434161 -110.9544778555,32.2296462611 -110.9545044643,32.2296542278 -110.955696965,32.2295094611 -110.9559906845,32.2295163006 -110.9563279922,32.2296225043 -110.9564478595,32.2297087309 -110.9564873329,32.2297286684 -110.9564889217,32.2297297035 -110.9564909161,32.2297311075 -110.9564920715,32.2297319396 -110.9564926134,32.2297323337 -110.9564929652,32.229732598 -110.9564931075,32.2297327178 -110.9564932883,32.229732885 -110.9564935818,32.2297331669 -110.956494285,32.2297338493 -110.9564957939,32.2297353168 -110.9564992052,32.2297386359 -110.9565064365,32.2297456725 -110.9565262031,32.2297649071</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410479707000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 4:55 PM to 5:06 PM<br/> 10 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T16:55:08-07:00</begin>
+          <end>2014-09-11T17:06:03-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9565262031,32.2297649071</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410480365000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 5:06 PM to 5:35 PM<br/> 29 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T17:06:06-07:00</begin>
+          <end>2014-09-11T17:35:58-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9586272862,32.2315687554</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410482160000">
+        <name><![CDATA[Place in West University]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 5:36 PM to 6:57 PM<br/> 1:21 hours</p> <p>Walking 8 min, 0.4 mi, 914 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T17:36:01-07:00</begin>
+          <end>2014-09-11T18:57:21-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9570847414,32.2317676748</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410487042000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 6:57 PM to 7:02 PM<br/> 5 min, 0.3 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T18:57:22-07:00</begin>
+          <end>2014-09-11T19:02:30-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9570847414,32.2317676748 -110.9557782009,32.2301735729 -110.9557781182,32.230173472 -110.9545399168,32.2286627503</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410487349000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:02 PM to 7:07 PM<br/> 5 min, 0.2 mi, 301 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:02:29-07:00</begin>
+          <end>2014-09-11T19:07:30-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9545399168,32.2286627503 -110.9546814799,32.228608066 -110.9546981663,32.2286150126 -110.9547071287,32.2286156696 -110.954715314,32.2286145077 -110.9562392326,32.227857198 -110.9561643409,32.2275923133</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410487650000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:07 PM to 7:10 PM<br/> 3 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:07:31-07:00</begin>
+          <end>2014-09-11T19:10:51-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9561643409,32.2275923133</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410487852000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:10 PM to 7:21 PM<br/> 10 min, 0.4 mi, 992 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:10:52-07:00</begin>
+          <end>2014-09-11T19:21:21-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9561643409,32.2275923133 -110.9562044559,32.2274965384 -110.9560916293,32.2251455394 -110.9559555995,32.2250606085 -110.9558699198,32.2250632324 -110.9541328871,32.2239299056 -110.9541350638,32.2240699555 -110.9541187843,32.2241951163</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410488482000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/11/14<br/> 7:21 PM to 12:00 AM<br/> 4:38 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-11T19:21:23-07:00</begin>
+          <end>2014-09-11T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/12/14]]></name>
+      <Placemark id="1410505200000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 12:00 AM to 8:47 AM<br/> 8:47 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T00:00:01-07:00</begin>
+          <end>2014-09-12T08:47:31-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410536852000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:47 AM to 8:54 AM<br/> 7 min, 1.8 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T08:47:32-07:00</begin>
+          <end>2014-09-12T08:54:32-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9541187843,32.2241951163 -110.9541835496,32.2241938411 -110.9547446776,32.2238754025 -110.9562269278,32.2238415991 -110.9562513838,32.2238457152 -110.9563085612,32.2243863884 -110.9563784741,32.224884189 -110.9573740725,32.2278467849 -110.959267356,32.2278140275 -110.9592888986,32.2278122378 -110.9593045309,32.2277711933 -110.9593486827,32.2276878664 -110.9594352098,32.2276193136 -110.9682199793,32.2278106835 -110.9683187063,32.2278106656 -110.9767214527,32.2279090308 -110.9772547902,32.2280686924</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410537272000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:54 AM to 8:57 AM<br/> 3 min, 0.1 mi, 320 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T08:54:32-07:00</begin>
+          <end>2014-09-12T08:57:37-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9772547902,32.2280686924 -110.9773128069,32.2281083578 -110.9772397694,32.2282091399 -110.9770251065,32.2281900669 -110.976880145,32.2282203883 -110.9767175476,32.2282386692 -110.976472466,32.2281953188 -110.976351292,32.2281808254 -110.9763026115,32.2281736708 -110.9762085471,32.2280797559</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410537458000">
+        <name><![CDATA[Place in El Presidio]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:57 AM to 11:05 AM<br/> 2:08 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T08:57:39-07:00</begin>
+          <end>2014-09-12T11:05:58-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9762085471,32.2280797559</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410545159000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:05 AM to 11:15 AM<br/> 9 min, 1.8 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:05:59-07:00</begin>
+          <end>2014-09-12T11:15:06-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9762085471,32.2280797559 -110.9717856252,32.2287951294 -110.97108407,32.2276753011 -110.9553819816,32.2278228364 -110.9549090431,32.2276818743 -110.9541187843,32.2241951163</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410545707000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:15 AM to 11:39 AM<br/> 24 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:15:08-07:00</begin>
+          <end>2014-09-12T11:39:34-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410547175000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:39 AM to 11:53 AM<br/> 13 min, 0.3 mi, 752 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:39:35-07:00</begin>
+          <end>2014-09-12T11:53:01-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9541187843,32.2241951163 -110.9541412695,32.2240546302 -110.9541809615,32.224043615 -110.9548402762,32.2250959541 -110.954875389,32.2252601033 -110.9547707064,32.2276829579 -110.9549302032,32.2277526904 -110.9549328644,32.2277594316 -110.9549328813,32.227759464 -110.9549329687,32.2277594813 -110.9549330781,32.2277595459 -110.9549331596,32.2277596134 -110.9549332102,32.227759663 -110.9549332407,32.2277596952 -110.9549332591,32.227759716 -110.9549332698,32.2277597255 -110.9549332758,32.2277597358 -110.9549332793,32.2277597429 -110.9549332816,32.2277597533 -110.9549332819,32.227759762 -110.9549332813,32.2277597743 -110.9549332797,32.2277597943 -110.9549332767,32.2277598264 -110.9549332714,32.2277598797 -110.9549332624,32.2277599689 -110.9549332468,32.2277601226 -110.9549332205,32.2277603821 -110.9549290537,32.2278013894</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410547981000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 11:53 AM to 12:49 PM<br/> 56 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T11:53:02-07:00</begin>
+          <end>2014-09-12T12:49:53-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9549290537,32.2278013894</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410551394000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 12:49 PM to 1:06 PM<br/> 16 min, 0.7 mi, 1,267 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T12:49:54-07:00</begin>
+          <end>2014-09-12T13:06:02-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9549290537,32.2278013894 -110.9546670735,32.2306759515 -110.9547346996,32.2305579286 -110.9547378259,32.2305529174 -110.9547382266,32.2305520445 -110.954738295,32.2305515849 -110.9547383209,32.2305510592 -110.9547383426,32.2305503453 -110.9547383679,32.230549347 -110.9547384005,32.23054796 -110.9547384456,32.2305459692 -110.9547385068,32.230543233 -110.9547385857,32.2305396814 -110.9547386901,32.2305349635 -110.9547388281,32.2305287154 -110.9547388633,32.2305271384 -110.9547323327,32.2296184252 -110.9547323311,32.2296181925 -110.9546944716,32.2243501513 -110.9547074302,32.2242077701 -110.9547079294,32.2242065819 -110.9547077068,32.2242053331 -110.954706928,32.2242047167 -110.9547051893,32.2242044428 -110.9541187843,32.2241951163</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410552361000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 1:06 PM to 1:18 PM<br/> 12 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T13:06:02-07:00</begin>
+          <end>2014-09-12T13:18:41-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410553122000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 1:18 PM to 1:40 PM<br/> 21 min, 4.8 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T13:18:42-07:00</begin>
+          <end>2014-09-12T13:40:18-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9541187843,32.2241951163 -110.9444173617,32.2733794162 -110.9437420552,32.2774085566 -110.94373664,32.2792911733 -110.944749545,32.2835129654</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410554419000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 1:40 PM to 1:46 PM<br/> 5 min, 0.1 mi, 386 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T13:40:19-07:00</begin>
+          <end>2014-09-12T13:46:17-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.944749545,32.2835129654 -110.9447849641,32.2836521526 -110.9447863694,32.2836355707 -110.9447903824,32.2836163139 -110.9447950891,32.2836007871 -110.9448441934,32.2834504539 -110.944838894,32.2834601179 -110.9448345299,32.2834877974</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410554777000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 1:46 PM to 2:54 PM<br/> 1:08 hours, 64.9 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T13:46:17-07:00</begin>
+          <end>2014-09-12T14:54:43-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-110.9448345299,32.2834877974 -110.9448019136,32.2837930949 -110.9447992818,32.2838117104 -110.9476202692,32.2900980282 -110.9498250005,32.2915704256 -110.9504266123,32.2917381838 -110.9746661299,32.2973766219 -110.9779672036,32.2974631304 -110.9943169226,32.2975750507 -110.9943178078,32.2975751713 -110.9983367099,32.2988935867 -110.9983381242,32.2988940507 -111.0207498995,32.3062463147 -111.0248330711,32.3080781606 -111.0458648242,32.322577198 -111.0458662778,32.3225736633 -111.0458665156,32.3225735723 -111.0725482231,32.3434031349 -111.075751008,32.3463403634 -111.1129490039,32.3834155245 -111.115641043,32.3867454241 -111.1172696711,32.3887110245 -111.1627450216,32.4239812251 -111.1665625614,32.4267263769 -111.2145567935,32.460725727 -111.2648114203,32.4987676621 -111.2667308435,32.5023281386 -111.2673361868,32.5035604769 -111.3005601163,32.5468659753 -111.3039398882,32.5509131727 -111.3399328994,32.5939076292 -111.3428669694,32.5973998875 -111.3811846325,32.6399121077 -111.3835597324,32.641604803 -111.4327154588,32.6745977545 -111.4370576464,32.6773217054 -111.488122521,32.7090410999 -111.4929400672,32.7114368834 -111.5455270049,32.7334678386 -111.5521259835,32.7360778161 -111.6011258351,32.7661212879 -111.6058280653,32.7690390764 -111.6574436593,32.8010852341 -111.6616806084,32.8037165045 -111.6702491453,32.8120760256</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410558882000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 2:54 PM to 2:57 PM<br/> 2 min, 0.1 mi, 150 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T14:54:42-07:00</begin>
+          <end>2014-09-12T14:57:11-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6702491453,32.8120760256 -111.6704281097,32.8123648812 -111.6704800145,32.812489488 -111.6705086169,32.8125266084 -111.6705515141,32.8125802057 -111.6705953404,32.8126332322 -111.6706462532,32.8126930231</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410559031000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 2:57 PM to 5:08 PM<br/> 2:11 hours, 132 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T14:57:11-07:00</begin>
+          <end>2014-09-12T17:08:28-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6706462532,32.8126930231 -111.678727376,32.8217849426 -111.6787278567,32.8217854834 -111.6851819287,32.8290468388 -111.6856633849,32.834344011 -111.6866851616,32.8870707909 -111.6866762199,32.8921418003 -111.7021648927,32.9401420365 -111.7049968629,32.943801847 -111.7413292634,32.9888902177 -111.7435375793,32.991618601 -111.7780011833,33.0350181301 -111.7811262886,33.0390661818 -111.8137729592,33.0815761945 -111.8169103306,33.0856371721 -111.8181327992,33.0872447066 -111.8483881764,33.1266514798 -111.8511114333,33.1300440837 -111.8528792584,33.132333485 -111.8856040048,33.1747652621 -111.8883371711,33.178327195 -111.9234017725,33.2236961922 -111.9258364979,33.2268318232 -111.9579668737,33.2683723987 -111.960806431,33.2720771561 -111.9619305145,33.2735330712 -111.9721506238,33.3233842856 -111.9721038978,33.3281370789 -111.9720858292,33.330066389 -111.9678444463,33.3724940567 -111.9678454255,33.3783266648 -111.9830441109,33.4111286914 -111.9854169431,33.411118687 -112.0153474835,33.4159745512 -112.0156025445,33.4162783603 -112.0161533082,33.4168877274 -112.0290676171,33.4266354357 -112.0295570667,33.4267566018 -112.0439371073,33.4274187338 -112.0448106496,33.427398573 -112.0457292894,33.4274057257 -112.082490769,33.4293950897 -112.0862663073,33.429747238 -112.0965219077,33.4412163679 -112.096523047,33.441217642 -112.1080660947,33.4541265609 -112.1080416743,33.4562700663 -112.1128565958,33.4909357651 -112.1129439084,33.4940586796 -112.112197769,33.5297438294 -112.1122297626,33.5329485805 -112.1147025303,33.5606047024 -112.1162420774,33.5634421516 -112.1168433517,33.5652686833 -112.1165866547,33.6088197092 -112.1165529322,33.6130110248 -112.116528478,33.615654911 -112.1138665439,33.6612635899 -112.1137077135,33.6632050058 -112.1168113058,33.7103918964 -112.1177185154,33.7148045912 -112.1180406934,33.7163246219 -112.1281037003,33.7646224659 -112.1293418029,33.7700947761 -112.143685596,33.8268255927 -112.1443644609,33.8299619115 -112.1472559285,33.8824616784 -112.147409804,33.8856743985 -112.14643815,33.9001627173 -112.1461044679,33.9042182813 -112.1459051817,33.906277281 -112.1338160511,33.9598456149 -112.1301071041,33.964173181 -112.1285879349,33.9660451877 -112.1374474738,34.0141748446 -112.14016627,34.0173845858 -112.1415833037,34.0188560755 -112.1418308525,34.0676087219 -112.1402973534,34.072076373 -112.1459041722,34.1175200532 -112.1458682928,34.1201961583 -112.1376390433,34.1636480376 -112.1370008025,34.1669339955 -112.1119587291,34.2153386745 -112.1121047895,34.2469083463 -112.1121048024,34.2469111234 -112.1122153303,34.2708007551 -112.1144424958,34.2758486272 -112.1153642989,34.2772782934 -112.1202034314,34.3264305477 -112.1187886319,34.3268446609 -112.1179324607,34.3273589981</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410566907000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 5:08 PM to 5:13 PM<br/> 4 min, 0.1 mi, 150 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T17:08:27-07:00</begin>
+          <end>2014-09-12T17:13:07-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-112.1179324607,34.3273589981 -112.1178233507,34.3274246945 -112.1177143824,34.3274388767 -112.1181693341,34.3272768224 -112.1181355933,34.3271968458</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410567187000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 5:13 PM to 6:26 PM<br/> 1:13 hours, 77.2 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T17:13:07-07:00</begin>
+          <end>2014-09-12T18:26:07-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-112.1181355933,34.3271968458 -112.1232206417,34.3313344731 -112.1244355384,34.3330304909 -112.1170792993,34.356435747 -112.0715595937,34.4067543825 -112.0693723673,34.4118366285 -112.0672107429,34.4140425149 -112.030656335,34.4493566082 -112.0304702914,34.4532942779 -112.0031772593,34.4969734124 -112.0017592588,34.500085341 -111.9613920501,34.5333967053 -111.9576983957,34.5331815351 -111.9055914392,34.5474064394 -111.9055972906,34.5507325019 -111.8730023156,34.5984170296 -111.8716154401,34.6009871034 -111.826190606,34.6355728706 -111.8213572702,34.6374129801 -111.8202053013,34.6378982912 -111.772962822,34.6729973815 -111.7694389936,34.6738574052 -111.7336744265,34.7076414441 -111.7296972756,34.7100957005 -111.7286561525,34.7113205422 -111.6851040025,34.7442210302 -111.6804481332,34.7473165958 -111.6791804363,34.7481652914 -111.6311984021,34.7749837804 -111.6263829202,34.7766167656 -111.6237673438,34.7775246814 -111.6110770983,34.7911322814 -111.6110756959,34.7911337851 -111.5979909575,34.8051643951 -111.6008611564,34.8082022083 -111.6073108822,34.8538002358 -111.610052635,34.8573217667 -111.6115020778,34.858388863 -111.6411606688,34.896629465 -111.6415684618,34.9005897053 -111.6418094992,34.9023056308 -111.658993269,34.9458616152 -111.6642756195,34.9492735637 -111.6869033293,34.9919573065 -111.6865988198,34.9960109659 -111.6864795466,34.9971388927 -111.6841393628,35.0468848201 -111.6827865881,35.050731434 -111.6825139982,35.0527543731 -111.68712753,35.0902140516 -111.6883432996,35.0908436983 -111.6882747678,35.0913062359 -111.6999361503,35.0916765295</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410571566000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 6:26 PM to 6:44 PM<br/> 17 min</p> <p>Walking 3 min, 0.1 mi, 299 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T18:26:07-07:00</begin>
+          <end>2014-09-12T18:44:00-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410572641000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 6:44 PM to 7:07 PM<br/> 23 min, 9.2 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T18:44:01-07:00</begin>
+          <end>2014-09-12T19:07:02-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6999361503,35.0916765295 -111.6910269259,35.092951715 -111.6910165396,35.0929834447 -111.6910192866,35.0929882452 -111.6910341983,35.0929751577 -111.6909713051,35.0930346329 -111.6909197862,35.0930781943 -111.6807917901,35.1155020644 -111.6802302248,35.1184808671 -111.6771171339,35.1425774344 -111.6771168189,35.1425798726 -111.6745882436,35.1621520551 -111.6713236569,35.1652736937 -111.6599685099,35.1915298113 -111.6592016671,35.1921487295 -111.6538950918,35.1960711908</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410574022000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 7:07 PM to 7:09 PM<br/> 2 min, 0.1 mi, 153 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T19:07:02-07:00</begin>
+          <end>2014-09-12T19:09:35-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6538950918,35.1960711908 -111.653500052,35.1962746651 -111.6532691206,35.1963496849 -111.6530364521,35.1965730684 -111.6525120864,35.1967282127</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410574175000">
+        <name><![CDATA[Place in Flagstaff]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 7:09 PM to 8:12 PM<br/> 1:02 hours</p> <p>Walking 9 min, 0.3 mi, 615 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T19:09:36-07:00</begin>
+          <end>2014-09-12T20:12:01-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6525120864,35.1967282127</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410577922000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:12 PM to 8:12 PM<br/> 1 min, 0.3 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T20:12:02-07:00</begin>
+          <end>2014-09-12T20:12:33-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6525120864,35.1967282127 -111.6484911338,35.1959867766</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410577952000">
+        <name><![CDATA[Place in Flagstaff]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 8:12 PM to 9:39 PM<br/> 1:26 hours</p> <p>Walking 11 min, 0.5 mi, 1,113 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T20:12:33-07:00</begin>
+          <end>2014-09-12T21:39:27-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6484911338,35.1959867766</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410583168000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 9:39 PM to 9:48 PM<br/> 8 min, 8.9 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T21:39:28-07:00</begin>
+          <end>2014-09-12T21:48:17-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6484911338,35.1959867766 -111.6999361503,35.0916765295</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410583697000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 9:48 PM to 9:59 PM<br/> 11 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T21:48:18-07:00</begin>
+          <end>2014-09-12T21:59:44-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410584385000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/12/14<br/> 9:59 PM to 12:00 AM<br/> 2:00 hours, 0.5 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-12T21:59:45-07:00</begin>
+          <end>2014-09-13T00:00:00-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6999361503,35.0916765295 -111.6999339111,35.091690312 -111.6999339096,35.0916903212 -111.6993957743,35.0950025314 -111.6993957728,35.0950025406 -111.6988576375,35.0983147507</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/13/14]]></name>
+      <Placemark id="1410591600000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 12:00 AM to 10:56 AM<br/> 10:56 hours, 2.9 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T00:00:00-07:00</begin>
+          <end>2014-09-13T10:56:12-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.698857636,35.0983147599 -111.6983195007,35.1016269701 -111.6983194993,35.1016269793 -111.697781364,35.1049391894 -111.6977813625,35.1049391986 -111.6972432272,35.1082514088 -111.6972432257,35.108251418 -111.6967050904,35.1115636281 -111.6967050889,35.1115636373 -111.6961669537,35.1148758475 -111.6961669522,35.1148758567 -111.6956288169,35.1181880668 -111.6956288154,35.118188076 -111.6950906801,35.1215002862 -111.6950906786,35.1215002954 -111.6945525434,35.1248125055 -111.6945525419,35.1248125147 -111.6940144066,35.1281247249 -111.6940144051,35.1281247341 -111.6934762698,35.1314369442 -111.6934762683,35.1314369534 -111.6929721769,35.1345396244</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410630972000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 10:56 AM to 11:06 AM<br/> 10 min, 0.3 mi, 781 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T10:56:12-07:00</begin>
+          <end>2014-09-13T11:06:15-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6929721769,35.1345396244 -111.6927682515,35.1357944968 -111.6927682425,35.1357945519 -111.6924324721,35.1378607437</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410631575000">
+        <name><![CDATA[Place in Fort Tuthill]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:06 AM to 5:25 PM<br/> 6:19 hours</p> <p>Walking 11 min, 0.3 mi, 829 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T11:06:16-07:00</begin>
+          <end>2014-09-13T17:25:15-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6924324721,35.1378607437</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410654316000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 5:25 PM to 5:32 PM<br/> 7 min, 0.3 mi, 559 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T17:25:16-07:00</begin>
+          <end>2014-09-13T17:32:49-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6924324721,35.1378607437 -111.6922899434,35.138257914 -111.6922898679,35.1382580647 -111.6922898367,35.1382582243 -111.6922898362,35.1382584083 -111.6922898656,35.138258666 -111.6922899332,35.1382590694 -111.6922900581,35.1382597319 -111.6922902753,35.13826084 -111.6922906452,35.1382627018 -111.6922912654,35.1382658085 -111.6922923271,35.1382711171 -111.6922940548,35.1382797509 -111.6931215444,35.1419320701 -111.6931282517,35.1419536357 -111.6931045035,35.1419028935</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410654769000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 5:32 PM to 5:49 PM<br/> 16 min, 5.3 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T17:32:49-07:00</begin>
+          <end>2014-09-13T17:49:17-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6931045035,35.1419028935 -111.6927097978,35.1410006701 -111.6926876345,35.1407192092 -111.6848034804,35.1291342191 -111.6825077318,35.1254825092 -111.687555128,35.0895937733 -111.6874467223,35.0897369066 -111.6874503732,35.0897439573 -111.6882604224,35.0908633239 -111.6884783028,35.0926926731 -111.6999361503,35.0916765295</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410655758000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 5:49 PM to 8:16 PM<br/> 2:27 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T17:49:19-07:00</begin>
+          <end>2014-09-13T20:16:23-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410664584000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:16 PM to 8:36 PM<br/> 19 min, 10.2 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:16:24-07:00</begin>
+          <end>2014-09-13T20:36:02-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6999361503,35.0916765295 -111.6854072996,35.0902795578 -111.6845826917,35.1384727176 -111.6841722186,35.1427008861 -111.6833719852,35.1451542757 -111.6833717762,35.1451546767 -111.6833715969,35.1451549859 -111.6833714374,35.1451552449 -111.6833713004,35.1451554609 -111.6833712031,35.1451556125 -111.6833711483,35.1451556976 -111.6833710249,35.145155888 -111.6833707524,35.1451563078 -111.6833706511,35.1451564639 -111.6833706184,35.1451565143 -111.6833706068,35.1451565322 -111.6833706015,35.1451565403 -111.6833705981,35.1451565456 -111.6833705952,35.1451565501 -111.6833705927,35.145156554 -111.6492302778,35.1976487567 -111.6489768689,35.1980352807 -111.6460783374,35.1993103247</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410665762000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:36 PM to 8:38 PM<br/> 2 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:36:03-07:00</begin>
+          <end>2014-09-13T20:38:39-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6460783374,35.1993103247</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410665920000">
+        <name><![CDATA[Walking]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:38 PM to 8:42 PM<br/> 3 min, 0.2 mi, 171 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:38:40-07:00</begin>
+          <end>2014-09-13T20:42:10-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_walking</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6460783374,35.1993103247 -111.6471565218,35.1989494494 -111.6472938894,35.1988325089 -111.6474047111,35.1987515804 -111.6484277581,35.1976058633</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410666130000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:42 PM to 11:38 PM<br/> 2:56 hours</p> <p>Walking 12 min, 0.4 mi, 837 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:42:11-07:00</begin>
+          <end>2014-09-13T23:38:55-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6484277581,35.1976058633</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410676736000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:38 PM to 11:55 PM<br/> 16 min, 9.4 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T23:38:56-07:00</begin>
+          <end>2014-09-13T23:55:26-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6484277581,35.1976058633 -111.6808291548,35.1166572877 -111.6812681474,35.1147097111 -111.6925473422,35.092104382 -111.6948163925,35.0903854142 -111.6999361503,35.0916765295</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410677726000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:55 PM to 12:00 AM<br/> 4 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T23:55:27-07:00</begin>
+          <end>2014-09-13T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6993766135,35.0911273269</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[9/14/14]]></name>
+      <Placemark id="1410678000000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/14/14<br/> 12:00 AM to 10:12 AM<br/> 10:12 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-14T00:00:01-07:00</begin>
+          <end>2014-09-14T10:12:38-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6993766135,35.0911273269</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410714759000">
+        <name><![CDATA[Transport]]></name>
+        <description><![CDATA[<p>9/14/14<br/> 10:12 AM to 3:13 PM<br/> 5:00 hours, 298.4 mi</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-14T10:12:39-07:00</begin>
+          <end>2014-09-14T15:13:05-07:00</end>
+        </TimeSpan>
+        <styleUrl>#activity_transport</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-111.6993766135,35.0911273269 -111.6879980375,35.0848144666 -111.6875658657,35.0807066169 -111.6870517157,35.0792616613 -111.6845396168,35.0312201784 -111.6857500736,35.0247966835 -111.685466209,35.0206611339 -111.684786492,35.0169665224 -111.6852141783,35.0125608435 -111.6858017656,35.0070191788 -111.6861283008,35.0038615526 -111.6855405137,34.9745619635 -111.6835866335,34.9690951705 -111.6476316857,34.9275330999 -111.645219025,34.9233178544 -111.6446406202,34.9222948575 -111.6312874035,34.8706714248 -111.6282800445,34.866937509 -111.6273857357,34.8657591022 -111.6129346192,34.8227386932 -111.6137302609,34.8182220368 -111.6301577429,34.77799763 -111.6675545231,34.7568297654 -111.7297300408,34.7126138966 -111.7340289338,34.7104382445 -111.8113983748,34.6407807694 -111.8232294457,34.6370449037 -111.8318378837,34.6345008051 -111.85530148,34.6132094136 -111.8599375549,34.611854464 -111.8933793061,34.5698089071 -111.8969990264,34.5673326145 -111.8981936213,34.566493795 -111.9240702218,34.5407289662 -111.9240718446,34.5407273503 -111.9278747307,34.5369408905 -111.9313968752,34.5356647546 -111.9846756802,34.5250085067 -111.987236972,34.5214907727 -112.0238553226,34.476221042 -112.0251778179,34.4715879571 -112.0555209777,34.4232746168 -112.0606246586,34.421611253 -112.0996626425,34.3801617828 -112.1043216265,34.3771317011 -112.105792232,34.375987124 -112.1221963939,34.3250201753 -112.1234223534,34.3199311491 -112.123903217,34.317794351 -112.1172626559,34.2633289103 -112.1197770003,34.2077555871 -112.1228327171,34.2046847647 -112.1462877122,34.1585752702 -112.1466246223,34.15371661 -112.1476689382,34.1520783514 -112.142918757,34.1022169443 -112.1429775083,34.0983941826 -112.1486797625,34.0460590012 -112.1486232478,34.0416723447 -112.1374518215,33.9896015235 -112.1367894275,33.9848605517 -112.1363568128,33.9837545785 -112.1430701894,33.9311659666 -112.1434548624,33.9289516627 -112.1467885224,33.8736005131 -112.1469406053,33.8712034765 -112.1514903457,33.8716257519 -112.1514912746,33.8716430011 -112.1514621124,33.8718474612 -112.1514424455,33.8718551079 -112.1469777549,33.870713242 -112.1460984866,33.8672676453 -112.1399342185,33.8168238648 -112.1399338683,33.8168209998 -112.1396362439,33.8143854627 -112.1381052092,33.8095873381 -112.1374216175,33.8067746832 -112.1262256654,33.7536218358 -112.1253943708,33.7496119122 -112.1147238956,33.6989236029 -112.113913604,33.6949800521 -112.0871989989,33.6689380114 -112.0804756936,33.6685945332 -112.0523835234,33.6689832446 -112.0504206948,33.6689609506 -112.0306389495,33.672190519 -112.0287276631,33.6724607039 -112.0027727918,33.6415289478 -112.004183425,33.6372520941 -112.0043303039,33.6353828521 -112.0100791651,33.5832989801 -112.0112752807,33.5788888902 -112.041717561,33.5345496364 -112.0435436987,33.5307133345 -112.038929958,33.481243 -112.0385751876,33.4769553596 -111.9935299816,33.4589910317 -111.9438421685,33.4355917053 -111.8757886561,33.4359089366 -111.8703143356,33.4372892052 -111.8645837325,33.4419401647 -111.8599827018,33.4445151295 -111.8539326541,33.4466216012 -111.8487367107,33.4507811478 -111.8421144262,33.4540193219 -111.839881663,33.4545084094 -111.8397999666,33.4523445707 -111.8398123262,33.4520867898 -111.8400175805,33.4227458903 -111.8400063694,33.4205228631 -111.8400064094,33.4193611459 -111.8400673447,33.407175184 -111.8400611312,33.4069647743 -111.8400600182,33.4069640922 -111.8400594909,33.4069638531 -111.8400593077,33.4069637796 -111.8400592465,33.4069637563 -111.8400592232,33.4069637475 -111.8400592119,33.4069637432 -111.8400592091,33.4069637422 -111.7771843194,33.3861933656 -111.7732651123,33.3862042358 -111.7101147192,33.386469595 -111.7044044843,33.386509604 -111.7034223475,33.3865185923 -111.6704513321,33.3865217597 -111.6704476135,33.3865217601 -111.633872154,33.3865252738 -111.6292953126,33.3865164013 -111.5645219072,33.3865226482 -111.5595139989,33.3865151859 -111.4965609956,33.3836831959 -111.4931963596,33.3816616753 -111.4607035184,33.3527619559 -111.457122986,33.3499958802 -111.4139869346,33.3129895208 -111.4117851979,33.3112497533 -111.3675719501,33.2790036666 -111.3633189547,33.2759209824 -111.3621058745,33.2750380306 -111.3429203385,33.2389464073 -111.3436173085,33.2344975398 -111.3507275143,33.1881457186 -111.3514313116,33.183622517 -111.3596361112,33.1303809233 -111.3602830944,33.1261263123 -111.3749806518,33.0781550302 -111.3760854499,33.0742125698 -111.3763923877,33.0730919416 -111.3792039983,33.036398974 -111.379227771,33.0337394094 -111.3792308207,33.0325354462 -111.3653278583,32.9933182357 -111.3622492988,32.988916359 -111.3249957988,32.949473441 -111.3225061555,32.9468509101 -111.2882358654,32.910781445 -111.2853958342,32.9078171369 -111.284104835,32.9064898942 -111.2505779719,32.8712360604 -111.2468134901,32.8673619846 -111.2455436485,32.8660351052 -111.2105774524,32.8294595881 -111.20795523,32.8267977562 -111.2029171151,32.8213903566 -111.2005387808,32.8189126608 -111.1810140234,32.7973382691 -111.1810123631,32.7973364344 -111.1686488751,32.7836750747 -111.1660480339,32.7800436502 -111.1283276272,32.7456125219 -111.1255753856,32.7423573577 -111.1248726847,32.7415347603 -111.0911535855,32.7005945908 -111.0892577473,32.6980997627 -111.0561474918,32.6679555672 -111.0541827021,32.6660872651 -111.0131230118,32.6395133655 -111.0103585222,32.6370984611 -111.0094924171,32.6363192468 -110.9841581177,32.6047499195 -110.980946413,32.601708526 -110.9802846298,32.6010797081 -110.9420497598,32.5663162719 -110.9398966124,32.5639943748 -110.9292661303,32.5285899534 -110.9281333773,32.5231788949 -110.9220950894,32.4824499991 -110.9219357915,32.4795873191 -110.9219361386,32.4795856318 -110.9219363105,32.4795848811 -110.9219363739,32.4795846165 -110.9219363956,32.4795845279 -110.9219364038,32.4795844943 -110.9219364075,32.4795844793 -110.9377460835,32.4166445389 -110.9389214002,32.4128808222 -110.9399090478,32.4114070432 -110.9591780147,32.3965615245 -110.9591967312,32.396543775 -110.9592167519,32.3965221687 -110.959224548,32.3965137548 -110.9592279373,32.3965100682 -110.9592293509,32.3965083901 -110.9592298051,32.3965073594 -110.9592298442,32.3965060399 -110.9592298887,32.3965042201 -110.9592300825,32.3965026034 -110.9592303156,32.3965015627 -110.9592305165,32.3965009231 -110.9592306843,32.3965004834 -110.95923083,32.3965001353 -110.9592309591,32.3964998364 -110.9592310721,32.3964995742 -110.9592311707,32.3964993416 -110.9592312618,32.3964991207 -110.9592313418,32.3964989191 -110.9592314125,32.396498738 -110.9581799407,32.3371844909 -110.9559979616,32.3371996517 -110.9307000529,32.3176418462 -110.9319649949,32.3151354594 -110.9326931782,32.3142204406 -110.9326938362,32.3142189559 -110.9326941231,32.3142182926 -110.9326942114,32.3142180874 -110.9439579647,32.2875304332 -110.9439795141,32.2875135669 -110.943843385,32.2680581472 -110.9438473098,32.267241609 -110.9438473125,32.267241048 -110.9438482255,32.2670511059 -110.9438482304,32.26705032 -110.9438482333,32.2670500748 -110.9438482343,32.2670500066 -110.9438482347,32.2670499865 -110.9438482348,32.2670499806 -110.9442379805,32.2491157694 -110.9442278173,32.2466053066 -110.9442266115,32.2450118395 -110.9451493784,32.2265830417 -110.9452558213,32.2261068157 -110.9541187843,32.2241951163</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="1410732785000">
+        <name><![CDATA[Place in Rincon Heights]]></name>
+        <description><![CDATA[<p>9/14/14<br/> 3:13 PM to 12:00 AM<br/> 8:46 hours</p> <p>Walking 10 min, 0.4 mi, 850 steps</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-14T15:13:06-07:00</begin>
+          <end>2014-09-14T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-110.9541187843,32.2241951163</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

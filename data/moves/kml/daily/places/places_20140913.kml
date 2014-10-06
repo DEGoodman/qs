@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <atom:link href="http://www.moves-app.com"/>
+    <description><![CDATA[<p align="center"><a href="http://www.moves-app.com"> <img src="http://www.moves-app.com/assets/moves.png"/> </a></p> <p align="center">Moves Storyline</p>]]></description>
+    <Style id="place_school">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/school.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_work">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/default.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_user">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_foursquare">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_unknown">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/marker_white.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place_home">
+      <IconStyle>
+        <scale>1.0</scale>
+        <heading>0.0</heading>
+        <Icon>
+          <href>http://ss1.4sqi.net/img/categories/building/home.png</href>
+          <refreshInterval>0.0</refreshInterval>
+          <viewRefreshTime>0.0</viewRefreshTime>
+          <viewBoundScale>0.0</viewBoundScale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name><![CDATA[9/13/14]]></name>
+      <Placemark id="1410631575000">
+        <name><![CDATA[Place in Fort Tuthill]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:06 AM to 5:25 PM<br/> 6:19 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T11:06:16-07:00</begin>
+          <end>2014-09-13T17:25:15-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6924324721,35.1378607437</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410655758000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 5:49 PM to 8:16 PM<br/> 2:27 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T17:49:19-07:00</begin>
+          <end>2014-09-13T20:16:23-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6999361503,35.0916765295</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410665762000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:36 PM to 8:38 PM<br/> 2 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:36:03-07:00</begin>
+          <end>2014-09-13T20:38:39-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6460783374,35.1993103247</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410666130000">
+        <name><![CDATA[Place in Downtown Flagstaff]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 8:42 PM to 11:38 PM<br/> 2:56 hours</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T20:42:11-07:00</begin>
+          <end>2014-09-13T23:38:55-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6484277581,35.1976058633</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="1410677726000">
+        <name><![CDATA[Place in Kachina Village]]></name>
+        <description><![CDATA[<p>9/13/14<br/> 11:55 PM to 12:00 AM<br/> 4 min</p>]]></description>
+        <TimeSpan>
+          <begin>2014-09-13T23:55:27-07:00</begin>
+          <end>2014-09-13T23:59:59-07:00</end>
+        </TimeSpan>
+        <styleUrl>#place_unknown</styleUrl>
+        <Point>
+          <coordinates>-111.6993766135,35.0911273269</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
