@@ -1,5 +1,32 @@
-.map_canvas {
-  width: 500px;
-  height: 400px;
-  background-color: #CCC;
+#mapOne {
+	width: 500px;
+	height: 400px;
+	background-color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+#mapTwo {
+	width: 500px;
+	height: 400px;
+	background-color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+.stations, .stations svg {
+	position: absolute;
+}
+
+.stations svg {
+	width: 60px;
+	height: 20px;
+	padding-right: 100px;
+	font: 10px sans-serif;
+}
+
+.stations circle {
+	fill: brown;
+	stroke: black;
+	stroke-width: 1.5px;
 }

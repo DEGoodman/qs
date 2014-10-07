@@ -7,34 +7,13 @@
         <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
         <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="stylesheets/myStyles.css" media="screen">
         <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+        <link rel="stylesheet" type="text/css" href="stylesheets/myStyles.css" media="screen">
 
         <script src="javascripts/d3.min.js" charset="utf-8"></script>
         <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script src="javascripts/jquery-2.11.min.js" charset="utf-8"></script>
         <script src="javascripts/main.js" charset="utf-8"></script>
-        <!--initialize the google maps-->
-        <script>
-            function initialize() {
-                var mapCanvas_one = document.getElementById('map_canvas_one');
-                var mapOptions_one = {
-                      center: new google.maps.LatLng(32.2217, -110.9264),
-                      zoom: 8,
-                      mapTypeId: google.maps.MapTypeId.ROADMAP
-                }
-                var map = new google.maps.Map(mapCanvas_one, mapOptions_one);
-
-                var mapCanvas_two = document.getElementById('map_canvas_two');
-                var mapOptions_two = {
-                      center: new google.maps.LatLng(32.2217, -110.9264),
-                      zoom: 8,
-                      mapTypeId: google.maps.MapTypeId.TERRAIN
-                }
-                var map = new google.maps.Map(mapCanvas_two, mapOptions_two);
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
-
 
         <title>QS by DEGoodman</title>
     </head>
@@ -100,7 +79,6 @@
                     <p>Perhaps the most important part of this experiment was to find how much time I spent per week on digital devices, and how much of that was productive time. I logged most of this via the RescueTime app and processed it into a graphic via d3.js</p>
 
 
-
                     <h4>
                         <a name="week_1" class="anchor" href="#week_1"><span class="octicon octicon-link"></span></a>Week One</h4>
 
@@ -138,20 +116,67 @@
 
                     <img src="media/photos.png">
 
-                    <p>This graphic shows that there is a significant asswociation not just with the method of photography (Dslr or cell phone), but with the number of photographs taken. I built this in Tableau, and couldn't find a way to make it quite as clear as I would have liked, however the text rows in each cell follows the following format: method of photography, number of photographs, and date shot. Note that some dates repeat. This is because I felt it was important to seperate the methods, rather than consolidate them.</p>
+                    <p>This graphic shows that there is a significant association not just with the method of photography (Dslr or cell phone), but with the number of photographs taken. I built this in Tableau, and couldn't find a way to make it quite as clear as I would have liked, however the text rows in each cell follows the following format: method of photography, number of photographs, and date shot. Note that some dates repeat. This is because I felt it was important to seperate the methods, rather than consolidate them.</p>
 
                     <h4>
-                        <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>Where I went</h3>
-                    <p>Movement</p>
+                        <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>Photo Locations</h3>
 
-                    <div class="map_canvas" id="map_canvas_one"></div>
-
+                    <div id="mapOne"></div>
 
 
+                    <script type="text/javascript">
 
-                    <p>Photo Locations</p>
+                        //create mapOne
+                        var mapOne = new google.maps.Map(d3.select("#mapOne").node(), {
+                            zoom: 8,
+                            center: new google.maps.LatLng(32.2217, -110.9264),
+                            mapTypeId: google.maps.MapTypeId.TERRAIN
+                        });
 
-                    <div class="map_canvas" id="map_canvas_two"></div>
+                        // Load the station data. When the data comes back, create an overlay.
+                        d3.json("data/geoPhoto/data.json", function(data) {
+                            var overlay = new google.maps.OverlayView();
+
+                            // Add the container when the overlay is added to the map.
+                            overlay.onAdd = function() {
+                                var layer = d3.select(this.getPanes().overlayLayer).append("div")
+                                .attr("class", "stations");
+
+                                // Draw each marker as a separate SVG element.
+                                // We could use a single SVG, but what size would it have?
+                                overlay.draw = function() {
+                                    var projection = this.getProjection(),
+                                        padding = 10;
+
+                                    var marker = layer.selectAll("svg")
+                                    .data(d3.entries(data))
+                                    .each(transform) // update existing markers
+                                    .enter().append("svg:svg")
+                                    .each(transform)
+                                    .attr("class", "marker");
+
+                                    // Add a circle.
+                                    marker.append("svg:circle")
+                                    .attr("r", 4.5)
+                                    .attr("cx", padding)
+                                    .attr("cy", padding);
+
+
+                                    function transform(d) {
+                                        d = new google.maps.LatLng(d.value[1], d.value[0]);
+                                        d = projection.fromLatLngToDivPixel(d);
+                                        return d3.select(this)
+                                        .style("left", (d.x - padding) + "px")
+                                        .style("top", (d.y - padding) + "px");
+                                    }
+                                };
+                            };
+
+                            // Bind our overlay to the map…
+                            overlay.setMap(mapOne);
+
+                        });
+                        </script>
 
                     <h3>
                         <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>So What?</h3>
