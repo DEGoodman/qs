@@ -70,31 +70,33 @@
                         <dt>Rescue Time</dt>
                         <dd> Collection and Analysis of cell phone, work laptop, and home desktop usage. Analyzed for productive/ recreational usage</dd>
                         <dt>Google Location Services</dt>
-                        <dd>track geographic location, with timestamps</dd>
+                        <dd>Track geographic location data</dd>
                         <dt>Moves</dt>
-                        <dd>Android app to track position on foot, as well as distance travelled on foot per day</dd>
+                        <dd>Smartphone app for more location data</dd>
                     </dl>
 
                     <dl>Processing and Analysis
                         <dt>Excel</dt>
-                        <dd>data conversion and comparison</dd>
+                        <dd>Data conversion and comparison</dd>
                         <dt>Tableau</dt>
-                        <dd>graphical analysis and visual design</dd>
+                        <dd>Graphical analysis and visual design</dd>
                     </dl>
 
                     <dl>Data Visualization
                         <dt>Rescue Time</dt>
-                        <dd>graphs</dd>
+                        <dd>Charts/graphs</dd>
                         <dt>Tableau</dt>
-                        <dd>charts and graphs</dd>
+                        <dd>Charts/graphs</dd>
                         <dt>d3.js</dt>
-                        <dd>interactive data processing and visualization</dd>
+                        <dd>Photo location processing and visualization</dd>
                     </dl>
 
 
                     <h3>
                         <a name="main" class="anchor" href="#main"><span class="octicon octicon-link"></span></a>Let's see some data!</h3>
-                    <p>Let's dive in!</p>
+                    <p>Jump in, the water's fine.</p>
+
+                    <p>Perhaps the most important part of this experiment was to find how much time I spent per week on a digital device, and how much of that was productive time. I logged most of this via the RescueTime app</p>
 
                     <h4>
                         <a name="week_1" class="anchor" href="#week_1"><span class="octicon octicon-link"></span></a>Week One</h4>
@@ -122,11 +124,27 @@
                         <img id="RS_three" src="media/RS/Sept_29.png">
                     </div>
 
-                    <h3>
+                    <h4>
+                        <a name="moves" class="anchor" href="#moves"><span class="octicon octicon-link"></span></a>Moves</h4>
+
+                    <p>Moves is an iPhone/Android app that tracks your movements. I used this information to visualize the correlation between distance travelled and number of "good" photos, subjectively chosen by myself.</p>
+
+                    <img src="media/photo_dist.png">
+
+                    <p>This particular dataset was the most interesting discovery I made. There seems to be absolutely no correlation between the distance I travelled and the number of good photographs I made. Simply walking around netted more good photographs than I took on a 120-mile round trip drive. However, we can dig a little deeper into the <em>number</em> of photgraps shot, and see if there is any comparison there.</p>
+
+                    <img src="media/photos.png">
+
+                    <p>This graphic shows that there is a significant asswociation not just with the method of photography (Dslr or cell phone), but with the number of photographs taken. I built this in Tableau, and couldn't find a way to make it quite as clear as I would have liked, however the text rows in each cell follows the following format: method of photography, number of photographs, and date shot. Note that some dates repeat. This is because I felt it was important to seperate the methods, rather than consolidate them.</p>
+
+                    <h4>
                         <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>Where I went</h3>
                     <p>Movement</p>
 
                     <div class="map_canvas" id="map_canvas_one"></div>
+
+
+
 
                     <p>Photo Locations</p>
 
@@ -138,15 +156,22 @@
 
                     <!--d3, to import geo data into maps-->
                     <script>
-                        d3.csv("data/geo_photo/Cell_data.csv")
-                            .row(function(d) { return {key: d.key, value: +d.value}; })
-                            .get(function(error, rows) { console.log(rows); });
+                        d3.csv("data/geo_photo/Cell_data.csv", function(d){
+                            return {
+                                lat: d.lat,
+                                long: d.long
+                            };
+                        }, function(error, rows){
+
+                            console.log(rows);
+                        });
+
                     </script>
 
                 </section>
 
                 <footer>
-                    Qs is maintained by <a href="https://github.com/DEGoodman">DEGoodman</a><br>
+                    QS is maintained by <a href="https://github.com/DEGoodman">DEGoodman</a><br>
                     This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
                 </footer>
 
