@@ -11,32 +11,20 @@
         <script src="javascripts/main.js" charset="utf-8"></script>
         <script src="javascripts/d3.min.js" charset="utf-8"></script>
         <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <!--initialize the google maps-->
+         <!--initialize the google maps-->
         <script>
             function initialize() {
-                var mapCanvas_one = document.getElementById('map_canvas_one');
-                var map_one = new google.maps.Map(mapCanvas_one);
+                var mapCanvas = document.getElementById('map_canvas');
                 var mapOptions = {
-                  center: new google.maps.LatLng(44.5403, -78.5463),
-                  zoom: 8,
-                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                      center: new google.maps.LatLng(32.2217, -110.9264),
+                      zoom: 8,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
                 }
-                var mapCanvas_two = document.getElementById('mapCanvas_two');
-                var map_two = new google.maps.Map(mapCanvas_two);
-                var mapOptions = {
-                  center: new google.maps.LatLng(44.5403, -78.5463),
-                  zoom: 8,
-                  mapTypeId: google.maps.MapTypeId.ROADMAP
-                }
-                var mapCanvas_three = document.getElementById('mapCanvas_three');
-                var map_three = new google.maps.Map(mapCanvas_three);
-                var mapOptions = {
-                  center: new google.maps.LatLng(44.5403, -78.5463),
-                  zoom: 8,
-                  mapTypeId: google.maps.MapTypeId.ROADMAP
-                }
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+            }
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
+
 
         <title>QS by DEGoodman</title>
     </head>
@@ -105,7 +93,6 @@
                     <div id="week_one">
                         <h5>RescueTime</h5>
                         <img id="RS_one" src="media/RS/Sept_15.png">
-                        <div class="map_canvas" id="map_canvas_one"></div>
                     </div>
 
                     <hr >
@@ -115,7 +102,6 @@
                     <div id="week_two">
                         <h5>RescueTime</h5>
                         <img id="RS_two" src="media/RS/Sept_22.png">
-                        <div class="map_canvas" id="map_canvas_two"></div>
                     </div>
 
                     <hr >
@@ -125,12 +111,18 @@
                     <div id="week_three">
                         <h5>RescueTime</h5>
                         <img id="RS_three" src="media/RS/Sept_29.png">
-                        <div class="map_canvas" id="map_canvas_three"></div>
                     </div>
+
+                    <h3>
+                        <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>Where I went</h3>
+                    <p>Interactive map utilizes d3 to display data</p>
+
+                    <div class="map_canvas" id="map_canvas"></div>
 
                     <h3>
                         <a name="end" class="anchor" href="#end"><span class="octicon octicon-link"></span></a>So What?</h3>
                     <p>And it doesn't look like we learned much!</p>
+
 
                 </section>
 
